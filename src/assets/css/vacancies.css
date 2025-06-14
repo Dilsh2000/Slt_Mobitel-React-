@@ -1,0 +1,43 @@
+.vacancies-page {
+    background-image: url('../../assets/15.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;  
+}
+.paragraph p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px ;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+}
+.vacancy-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto; 
+    padding: 0px;
+}
+
+.card-footer2 {
+    padding: 15px 20px;
+    text-align: center;
+}
+.apply-btn2 {
+    background-color:#007BFF;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 300px;
+}

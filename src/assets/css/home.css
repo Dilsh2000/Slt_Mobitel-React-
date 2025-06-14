@@ -1,0 +1,26 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%; 
+  font-family: 'Inter', sans-serif; 
+}
+
+
+.home-page {
+  background-image: url('../../assets/img/2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  height: 100%;                 
+  width: 100vw;  
+  padding-top: 300px;                 
+  
+}
